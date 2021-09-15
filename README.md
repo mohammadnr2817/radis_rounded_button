@@ -25,7 +25,7 @@ RoundedButton(
 ```
 
 
-<img src="https://github.com/Radis-Dev/radis_rounded_button/tree/master/screenshot.png?raw=true" width="400"/>
+<img src="https://github.com/Radis-Dev/radis_rounded_button/blob/master/screenshot.png?raw=true" width="400"/>
 
 ## All properties
 | property        | description                                                        | default    |
@@ -44,4 +44,4 @@ RoundedButton(
 | radius          | double                                                             |7           |
 | widget          | Widget (required)                                                  |required    |
 
-### Your contributions welcome.
+### Your contributions are welcome.

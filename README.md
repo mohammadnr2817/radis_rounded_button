@@ -1,14 +1,47 @@
 # radis_rounded_button
 
-Radis rounded button package.
+Rounded button package built for for flutter.
 
-## Getting Started
+> Supported Platforms
+>
+> - Android
+> - IOS
+> - Web
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+## How to Use
+First, add package to your dependencies in ```pubspec.yml```
+```yaml
+radis_rounded_button: ^latest
+```
+Find the latest version from [pub.dev](https://pub.dev/packages/radis_rounded_button)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Simple usage
+```dart
+RoundedButton(
+        widget: Text('LOGIN'),
+        leadingWidget: Icon(CupertinoIcons.forward),
+        onPressed: () {},
+    );
+```
+
+
+<img src="https://github.com/Radis-Dev/radis_rounded_button/tree/master/screenshot.png?raw=true" width="400"/>
+
+## All properties
+| property        | description                                                        | default    |
+| --------------- | ------------------------------------------------------------------ |------------|
+| backgroundColor | Color                                                              |Colors.blue |
+| borderColor     | Color                                                              |null        |
+| disabled        | bool                                                               |false       |
+| elevation       | double                                                             |0           |
+| leadingWidget   | Widget                                                             |null        |
+| loading         | bool                                                               |false       |
+| leadingAlignment| AlignmentGeometry                                                  |Alignment.centerRight|
+| loadingWidget   | Widget                                                             |null        |
+| onPressed       | Function (required)                                                |required    |
+| padding         | EdgeInsetsGeometry                                                 |EdgeInsets.symmetric(horizontal: 0, vertical: 16)|
+| progressColor   | Color                                                              |Colors.white|
+| radius          | double                                                             |7           |
+| widget          | Widget (required)                                                  |required    |
+
+### Your contributions welcome.

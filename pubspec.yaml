@@ -1,7 +1,8 @@
 name: radis_rounded_button
-description: Radis rounded button package.
+description: Rounded button package built for for flutter.
 version: 0.0.1
-homepage:
+author: Mohammad Reza Noorzade
+homepage: https://github.com/Radis-Dev/radis_rounded_button
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

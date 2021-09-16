@@ -1,12 +1,15 @@
 # radis_rounded_button
 
-Rounded button package built for for flutter.
+Rounded button package built for for flutter. ```Null safety supported```
 
 > Supported Platforms
 >
-> - Android
+> - ANDROID
 > - IOS
-> - Web
+> - LINUX
+> - MACOS
+> - WEB
+> - WINDOWS
 
 ## How to Use
 First, add package to your dependencies in ```pubspec.yml```

@@ -13,7 +13,8 @@ class RoundedButton extends StatefulWidget {
   final Widget? loadingWidget;
   final Function() onPressed;
   final EdgeInsetsGeometry padding;
-  final Color progressColor;
+  final Color progressBarColor;
+  final double progressBarSize;
   final double radius;
   final Widget widget;
 
@@ -29,7 +30,8 @@ class RoundedButton extends StatefulWidget {
     this.loadingWidget,
     required this.onPressed,
     this.padding = const EdgeInsets.symmetric(horizontal: 0, vertical: 16),
-    this.progressColor = Colors.white,
+    this.progressBarColor = Colors.white,
+    this.progressBarSize = 25,
     this.radius = 7,
     required this.widget,
   }) : super(key: key);
@@ -55,8 +57,11 @@ class _RoundedButtonState extends State<RoundedButton> {
         child: widget.loading
             ? widget.loadingWidget ??
                 Center(
-                    child:
-                        CircularProgressIndicator(color: widget.progressColor))
+                    child: SizedBox(
+                        width: widget.progressBarSize,
+                        height: widget.progressBarSize,
+                        child: CircularProgressIndicator(
+                            color: widget.progressBarColor)))
             : Stack(
                 children: [
                   Center(child: widget.widget),

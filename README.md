@@ -33,18 +33,19 @@ RoundedButton(
 ## All properties
 | property        | description                                                        | default    |
 | --------------- | ------------------------------------------------------------------ |------------|
-| backgroundColor | Color                                                              |Colors.blue |
-| borderColor     | Color                                                              |null        |
-| disabled        | bool                                                               |false       |
-| elevation       | double                                                             |0           |
-| leadingWidget   | Widget                                                             |null        |
-| loading         | bool                                                               |false       |
-| leadingAlignment| AlignmentGeometry                                                  |Alignment.centerRight|
-| loadingWidget   | Widget                                                             |null        |
-| onPressed       | Function (required)                                                |required    |
-| padding         | EdgeInsetsGeometry                                                 |EdgeInsets.symmetric(horizontal: 0, vertical: 16)|
-| progressColor   | Color                                                              |Colors.white|
-| radius          | double                                                             |7           |
-| widget          | Widget (required)                                                  |required    |
+| backgroundColor | Color                                                              | Colors.blue
+| borderColor     | Color                                                              | null
+| disabled        | bool                                                               | false
+| elevation       | double                                                             | 0
+| leadingWidget   | Widget                                                             | null
+| loading         | bool                                                               | false
+| leadingAlignment| AlignmentGeometry                                                  | Alignment.centerRight
+| loadingWidget   | Widget                                                             | null
+| onPressed       | Function (required)                                                | required
+| padding         | EdgeInsetsGeometry                                                 | EdgeInsets.symmetric(horizontal: 0, vertical: 16)
+| progressBarColor| Color                                                              | Colors.white
+| progressBarSize | double                                                             | 25
+| radius          | double                                                             | 7
+| widget          | Widget (required)                                                  | required
 
 ### Your contributions are welcome.
